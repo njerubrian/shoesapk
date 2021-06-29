@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/homepagefrag"
+    tools:context="com.example.shoesapk.homepage">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:columnCount="2"
+        android:rowCount="4">
+
+        <ImageButton
+            android:layout_margin="4dp"
+            android:id="@+id/nike"
+            android:layout_width="198dp"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:src="@drawable/nikes"
+            android:tooltipText="shop with nike"
+            android:onClick="Nike_shoes">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/puma"
+            android:layout_width="197dp"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_margin="4dp"
+            android:layout_column="1"
+            android:src="@drawable/puma"
+            android:tooltipText="shop with puma"
+            android:onClick="Puma_shoes">
+
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="198dp"
+            android:layout_height="100dp"
+            android:src="@drawable/adidas"
+            android:id="@+id/adidas"
+            android:layout_margin="4dp"
+            android:onClick="Adidas_shoes">
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="198dp"
+            android:layout_height="100dp"
+            android:src="@drawable/newbalance"
+            android:id="@+id/newbalance"
+            android:layout_margin="4dp"
+            android:onClick="Newbalance_shoes">
+
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/balenciaga"
+            android:src="@drawable/balenciaga"
+            android:layout_width="198dp"
+            android:layout_height="100dp"
+            android:layout_margin="4dp"
+            android:onClick="Balanceiga_shoes">
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="198dp"
+            android:layout_height="100dp"
+            android:id="@+id/bata"
+            android:src="@drawable/bata"
+            android:layout_margin="4dp"
+            android:onClick="Bata_shoes">
+
+        </ImageButton>
+
+
+    </GridLayout>
+
+</FrameLayout>

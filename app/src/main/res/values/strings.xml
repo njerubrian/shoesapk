@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+
+    <string-array name="shoe_brands">
+        <item>Adidas</item>
+        <item>New Balance</item>
+        <item>Balenciaga</item>
+        <item>Bata</item>
+        <item>Puma</item>
+        <item>Nike</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
